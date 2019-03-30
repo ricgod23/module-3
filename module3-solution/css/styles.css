@@ -1,0 +1,63 @@
+body {
+	color: black;
+	background-color: white;
+}
+
+h2 {
+	font-size: 23px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+	color: black;
+}
+
+p {
+	padding: 5px 15px 15px;
+}
+
+/* Header */
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-size: 25px;
+	margin-top: -3px;
+	margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+	border-top: 1px solid black;
+	background-color: #d3d3d3; 
+}
+
+#nav-list a:hover {
+	background: white;
+}
+
+/* End Header */
+
+/* Home Page */
+
+#chicken-tile, #beef-tile, #sushi-tile {
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	background-color: gray;
+	}
+
+/* End Home Page */
